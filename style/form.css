@@ -48,6 +48,26 @@
 
   height: 46px;
   width: 225px;
+
+  transition: background-color 0.3s linear;
+}
+
+.form__submit:hover {
+  background-color: #ffffff;
+  border: 1px solid #2238ff;
+  color: #000000;
+}
+
+.form__submit:active {
+  background-color: #8793ff;
+  color: #ffffff;
+  border: none;
+}
+
+.form__submit:disabled {
+  background-color: #cccccc;
+  color: #ffffff;
+  border: none;
 }
 
 @media (min-width: 1024px) {

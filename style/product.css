@@ -34,6 +34,8 @@
   line-height: 100%;
   color: #2238ff;
   padding-right: 20px;
+
+  transition: color 0.2s linear;
 }
 
 .product__more::after {
@@ -46,6 +48,18 @@
   width: 12px;
   height: 8px;
   background: url("../img/Arrow\ 1.svg") no-repeat center;
+}
+
+.product__more:hover {
+  color: #0017e6;
+}
+
+.product__more:active {
+  color: #8793ff;
+}
+
+.product__more:disabled {
+  color: #cccccc;
 }
 
 @media (min-width: 768px) {

@@ -49,6 +49,14 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
+
+  transition: all 0.3s linear;
+}
+
+.country__choise:hover,
+.country__choise:focus,
+.country__choise:active {
+  color: #2238ff;
 }
 
 .country__wrapper_open {

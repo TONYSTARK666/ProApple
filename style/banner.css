@@ -33,6 +33,19 @@
   padding: 16px 20px;
   font-weight: 400;
   font-size: 14px;
+
+  transition: background-color 0.3s linear;
+}
+
+.banner__button:active {
+  background-color: #2238ff;
+  color: #ffffff;
+}
+
+.banner__button:disabled {
+  background: #cccccc;
+  border: none;
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {
